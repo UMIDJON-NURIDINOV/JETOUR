@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%0;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.u1{
+    width: 100px;
+    cursor: pointer;
+    display: flex;
+    margin-left: 40px;
+    justify-content: space-between;
+}
+.u1 .u{
+    width: 40px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid black;
+    background-color:white;
+    color:black ;
+    font-size: 14px;
+}
+.u1 .u{
+    margin-top: 10px;
+        padding-top: 6px;
+    padding-left: 4px;
+    color: black;
+}
+.u1  img{
+    margin-top: 10px;
+    width: 40px;
+    height: 30px;
+}
+nav h2{
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.u2{
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+.u2 img{
+    width: 100%;
+}
+.u3{
+    width: 94%;
+    height: 980px;
+    background-color: rgb(221, 221, 221);
+    margin-left: 50px;
+    cursor: pointer;
+}
+.u3 h1{
+    margin-left: 60px;
+}
+.u3 h3{
+    margin-left: 60px;
+}
+.u3 p{
+    border: none;
+    margin-left: 60px;
+}
+.u3 .u200{
+    width: 100%;
+    height: auto;
+}
+.u4 button{
+    width: 140px;
+    height: 40px;
+    background-color: aqua;
+    color: white;
+    border-radius: 10%;
+    top: -30px;
+    position: relative;
+    font-size: 20px;
+    border: none;
+}
+.u5{
+    background-image: url(./IMG/bg.png);
+    width: 100%;
+    height: 500px; 
+    z-index: -1;   
+}
+.u5 h1{
+    color: white;
+    width: 600px;
+    font-size: 70px;
+    margin-left: 120px;
+    position: relative;
+    top: 70px;
+}
+.u6{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -200px;
+    cursor: pointer;
+}
+.u6 img{
+    width: 28%;
+}
+.u7{
+    width: 100%;
+    height: auto;
+    background-color:rgb(228, 228, 228);
+}
+.u7 h3{
+    margin-left: 60px;
+}
+.u7 img{
+    width: 60%;
+    height: 400px;
+    margin-left: 260px;
+}
+.u7 a{
+    text-decoration: none;
+    color: black;
+    margin-left: 1100px;
+    cursor: pointer;
+}
+.u300 img{
+    width: 100%;
+    height: auto;
+    margin-top: 16px;
+    margin-left: -20px;
+}
+.u6 img:hover{
+    transform: rotateY(180deg);
+}
+.u4 img:hover{
+    transform: rotateY(180deg);
+}
+.u4 button:hover{
+    background-color: orangered;
+    color: white;
+}
+.u7 a:hover{
+    color: orangered;
+}
+.u8{
+    width: 100%;
+}
+.u9{
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.u10{
+    width: 24%;
+}
+.u10 h1{
+    font-size:3rem;
+    color: #4c4c4c;
+    line-height: 1;
+}
+.u10 button{
+    width: 160px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.u10 button:hover{
+    background-color: orangered;
+    color: white;
+    
+}
+.u11{
+    width: 24%;
+    border: 1px solid gray;
+    padding-left: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.u11 img{
+    width: 80%;
+    height: auto;
+}
+.u11 p{
+    color: gray;
+}
+.u10{
+    margin-left: 40px;
+}
+.u12{
+    width: 100%;
+    /* display: flex; */
+}
+.u14 img{
+    width: 100%;
+}
+.u13 p{
+    color: gray;
+    width: 70%;
+}
+.u13{
+    width: auto;
+    position: absolute;
+
+    padding-left: 100px;
+    margin-top: 100px;
+}
+.u13 button{
+    width: 140px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid gray;
+}
+.u13 button:hover{
+    background-color: orangered;
+    color: white;
+    cursor: pointer;
+}
